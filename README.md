@@ -1,1 +1,1 @@
-projeto social do Curso em Video
+Projeto Social do Curso em Video
