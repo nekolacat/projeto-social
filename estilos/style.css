@@ -22,7 +22,7 @@ main {
 section#telefone {
     height: 627px;
     width: 311px;
-    background-image: url(../imagens/frame-iphone.png);
+    background-image: url('../imagens/frame-iphone.png');
     background-repeat: no-repeat;
     position: absolute;
     top: 50%;
@@ -42,14 +42,14 @@ section#redes {
     text-align: right;
 }
 
-section#redes img:hover {
+section#redes > a > img:hover {
     border: 2px solid rgba(255, 255, 255, 0.637);
     transform: translate(-5px, -5px );
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
     transition: transform .3s, border .3s;
 }
 
-section#redes img {
+section#redes > a >  img {
     box-sizing: border-box;
     width: 50px;
     margin: 10px;
