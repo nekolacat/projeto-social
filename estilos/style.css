@@ -5,6 +5,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
     height: 100vh;
     width: 100vw;
@@ -12,10 +13,12 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
 main {
     height: 100vh;
     position: relative;
 }
+
 #telefone {
     height: 627px;
     width: 311px;
@@ -26,6 +29,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 #tela {
     position: relative;
     top: 80px;
@@ -33,6 +37,23 @@ main {
     width: 267px;
     height: 471px;
 }
-#redes {
 
+#redes {
+    text-align: right;
+}
+
+#redes img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px );
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
+    transition: transform .3s, border .3s;
+}
+
+#redes img {
+    box-sizing: border-box;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    transition: 1s;
 }
