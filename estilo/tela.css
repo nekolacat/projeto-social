@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+#pg {
+    max-height: 720px;
+}
+img#hud {
+    width: 100vw;
+    position: fixed;
+}
+img#phone {
+    width: 100vw;
+}
+section#botao {
+    position: relative;
+}
+a {
+    margin-top: -5px;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(67, 16, 114);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transition: .5s;
+}
+a:hover {
+    background-color: rgb(109, 29, 184);
+    transition: .5s;
+}

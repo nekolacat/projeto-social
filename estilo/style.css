@@ -1,0 +1,66 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("imgs/bg.jpg") top center no-repeat fixed;
+    background-size: cover;
+}
+main {
+    height: 100vh;
+    position: relative;
+}
+header {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+header > h1 {
+    padding-bottom: 10px;
+}
+header > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    padding: 5px;
+    transition: .5s;
+    border-radius: 5px;
+}
+header > a:hover {
+    background-color: rgb(13, 13, 202);
+    transition: .5s;
+}
+iframe#tela {
+    position: relative;
+    top: 83px;
+    left: 25px;
+    width: 262px;
+    height: 466px;
+}
+section#phone {
+    position: absolute;
+    background: url("imgs/frame-iphone.png");
+    height: 627px;
+    width: 311px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section#social {
+    margin-top: -50px;
+    text-align: right;
+}
+section#social > a > img {
+    width: 50px;
+    margin: 10px;
+    transition: .5s;
+}
+section#social > a > img:hover {
+    transform: translate(-2px, -2px);
+    transition: .5s;
+}
