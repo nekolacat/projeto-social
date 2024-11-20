@@ -51,6 +51,12 @@ section#phone {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#home {
+    padding: 20px;
+    position: relative;
+    top: 65px;
+    left: -64px;
+}
 section#social {
     margin-top: -50px;
     text-align: right;
